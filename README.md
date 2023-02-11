@@ -97,5 +97,16 @@ List all the defined names belonging to the platform module:
 # Import From Module
 You can choose to import only parts from a module, by using the from keyword.
 
+Example:
 
+The module named mymodule has one function and one dictionary:
+
+    def greeting(name):
+        print("Hello, " + name)
+
+    person1 = {
+        "name": "John",
+        "age": 36,
+        "country": "Norway"
+    }    
 
