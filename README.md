@@ -110,3 +110,14 @@ The module named mymodule has one function and one dictionary:
         "country": "Norway"
     }    
 
+Example:
+
+Import only the person1 dictionary from the module:
+
+    from mymoduel import person1
+
+    print (person1["age"])
+
+
+
+
